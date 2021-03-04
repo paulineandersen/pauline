@@ -1,0 +1,242 @@
+/**
+Theme Name: PaulineSA Astra Child
+Author: Pauline SA
+Author URI: http://paulinesa.com
+Description: Child Theme for Astra
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+:root {
+	--red: rgba(252, 37, 19, 0.6); 
+	--green: rgba(53, 90, 55, 0.6);
+	--blue: rgba(159, 211, 230, 0.6); 
+	--grey: rgba(112, 112, 112, 0.6); 
+}
+
+#scrollTop {
+	display: none; 
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 99;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	background-color: black; ;
+	border: none; 
+	color:white; 
+	cursor: pointer;
+	padding: 15px 20px 10px 20px;
+	z-index: 10; 
+}
+
+#scrollTop:hover {
+	opacity: 0.5; 
+}
+
+
+/* text styling */ 
+
+h3 {
+	text-align: center; 
+}
+
+h4 {
+	-webkit-text-stroke: 1px white; 
+	margin-block-start: 0; 
+	margin-block-end:0;
+}
+
+.outlineblack {
+	-webkit-text-stroke: 1px solid black; 
+}
+
+#typed {
+	color: white; 
+}
+
+.psatext {
+	-webkit-text-stroke: 1px #001067;
+}
+
+.contacttext {
+	-webkit-text-stroke: 0.5px #606D91;
+	width: 100%; 
+}
+
+
+#nav {
+	width: 15%; 
+	mix-blend-mode: difference;
+}
+
+.elementor-nav-menu {
+	padding-top: 40%;
+	padding-bottom: 40%; 
+}
+
+.eicon-menu-bar {
+	mix-blend-mode: difference;
+}
+
+
+@media (min-width: 750px) {
+	.elementor-nav-menu {
+		padding-top: 20%;
+		padding-bottom: 20%; 
+	}
+}
+
+/* button styling */
+
+.next {
+	mix-blend-mode: difference;
+}
+
+.back {
+	mix-blend-mode: difference;
+}
+
+.icons {
+	opacity:0.5; 
+}
+
+/* styling contact sections */
+
+#bell {
+ width: 10%; 
+
+}
+
+#bell:hover {
+	animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.contact {
+	border-bottom: 10px #FC2513 !important; 
+}
+
+
+/* underline color on h3 */
+
+.highlight {
+	background: linear-gradient(to top, transparent 5%, var(--red) 5%, var(--red) 37%, transparent 37%);
+  }
+
+  /*styling for projects */
+
+  #projects {
+	margin-top: 0px; 
+	padding-top: 0; 
+}
+
+
+#koncept {
+	margin-block-start: 0; 
+	margin-block-end:0;
+	-webkit-text-stroke: 1px var(--green);
+	margin: 0;
+	padding: 0; 
+}
+
+#sbbgif {
+	width: 100%; 
+}
+
+.sbbsection1 {
+	width: 100%; 
+}
+
+.elementor-kit-24461 .elementor-button {
+    background-color: rgba(2, 1, 1, 0);
+    border-style: none; 
+    border-width: 0px; 
+    border-color: transparent;
+    border-radius: 0px 0px 0px 0px;
+    padding: 16px 40px 16px 40px;
+}
+
+.elementor-kit-24461 .elementor-button:hover {
+	border: none; 
+	background-color: transparent; 
+}
+
+#sbbhighlight {
+	width: 50%;
+	font-size: 40px;  
+	background: linear-gradient(to top, transparent 5%, var(--green) 5%, var(--green) 37%, transparent 37%);
+  }
+
+
+  .klankhighlight {
+	  font-size: 40px; 
+	background: linear-gradient(to top, transparent 5%, #6693D7 5%, #6693D7 37%, transparent 37%);
+  }
+
+  #katjeshighlight {
+	width: 50%;
+	font-size: 40px;  
+	background: linear-gradient(to top, transparent 5%, var(--blue) 5%, var(--blue) 37%, transparent 37%);
+  }
+
+  #nuuiihighlight {
+	  color: white; 
+	  background: linear-gradient(to top, transparent 5%, var(--blue) 5%, var(--blue) 37%, transparent 37%);
+
+  }
+
+  #horsenshighlight {
+	  font-size: 40px; 
+	  background: linear-gradient(to top, transparent 5%, var(--grey) 5%, var(--grey) 37%, transparent 37%);
+
+  }
+
+  #bdinsta {
+	  width: 50%; 
+  }
+
+/* styling text at "contact me" for ipad */
+
+@media (max-width: 1024px) {
+.elementor-24458 .elementor-element.elementor-element-34277c67 {
+	padding: 0px 0px 0px 0px;
+	
+	}
+
+	.highlight {
+		font-size: 35px;
+	}
+
+}
+
+@media (max-width: 750px) {
+	
+	
+		.highlight {
+			font-size: 35px;
+		}
+	
+	}
+
+
